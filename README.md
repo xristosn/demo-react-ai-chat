@@ -4,6 +4,9 @@ A fully **client-side AI text chatbot** that streams responses in real time, wit
 
 Built with **Vite v7.1.7**, **React v19.1.1**, **Shadcn components**, **Tailwind CSS** and **Framer Motion**.
 
+
+**Try it out [here](https://xn-ai-chatbot.netlify.app/)**
+
 ---
 
 ## ✨ Features
@@ -81,6 +84,34 @@ Built with **Vite v7.1.7**, **React v19.1.1**, **Shadcn components**, **Tailwind
 | API SDK            | [OpenAI JS SDK](https://www.npmjs.com/package/openai)        | Client-side integration for OpenAI provider |
 | Tool Validation    | [Zod](https://github.com/colinhacks/zod)                     | Strong schema validation for tools          |
 | State Persistence  | Browser storage (localStorage)                               | Saves chats, API keys, settings, templates  |
+
+
+
+## 🚀 Running the Project
+
+1. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+2. Start Development Server
+
+```bash
+yarn dev
+# or
+npm run dev
+```
+
+3. Build for Production
+
+```bash
+yarn build
+# or
+npm run build
+```
 
 ## 📄 License
 
